@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+@media (min-width: 600px) {
+    
+    .header{
+        background-color: #2B547E;
+        height: 22%;
+        width: 100%;
+        margin: auto;
+        padding-left: 5%;
+        padding-right: 8%;
+        justify-content: space-between;
+        
+    }
+    
+    input{    
+        background: url("https://img.icons8.com/pastel-glyph/20/000000/search--v2.png") top left     no-repeat;
+        background-color: gainsboro; 
+        height:50%;
+        width: 20rem;
+        background-position: 2%;  
+        text-align:center;
+       
+        padding:10px;  
+        } 
+    
+        .main-menu input{
+            margin-top: 5%;
+        }
+    
+    .menu{
+            height: 48px;
+            width: 48px;
+            
+        }
+    
+      
+    ul {
+        list-style: none;
+        
+        
+        
+    
+      }
+    
+    .main-nav {
+        display: flex;
+        
+       
+        align-items: center;
+        justify-content: space-between;
+        height: 5rem;
+        width:100%;
+        padding: 10px;
+        font-size: 13px;
+        
+
+      }
+    
+    
+    .main-nav ul {
+        display: flex;
+        margin-left: auto;
+        
+      }
+      
+     .main-nav ul li {
+        padding: 0 10px;
+      }
+      
+    
+    .main-nav ul.main-menu {
+        flex: 1;
+        margin-left: 20px;
+      } 
+    
+    .right-menu li{
+    
+            justify-content: space-between;
+            margin: 200px;
+            font-size: 12px;
+            padding-right: 25%;
+           
+        }
+
+        
+  }
+
+ 
+  @media (max-width: 600px) {
+        .user{
+            float:left;
+        }
+        .right-menu li img{
+            width: 100%;
+            height: auto;
+        }
+    }
